@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "shopify-app-node",
   "version": "0.0.0",
   "description": "Shopify's node app for CLI tool",
