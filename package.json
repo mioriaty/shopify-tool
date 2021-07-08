@@ -30,7 +30,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.12.10",
-    "@babel/polyfill": "^7.6.0",
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "@babel/register": "^7.12.10",
     "@shopify/app-bridge-react": "^1.29.0",

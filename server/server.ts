@@ -120,7 +120,11 @@ app.prepare().then(async () => {
   });
 
   router.post('/graphql', verifyRequest({ returnHeader: true }), async (ctx, next) => {
+   try {
     await Shopify.Utils.graphqlProxy(ctx.req, ctx.res);
+   } catch {
+     console.log(next);
+   }
   });
 
   router.get('(/_next/static/.*)', handleRequest); // Static content is clear
