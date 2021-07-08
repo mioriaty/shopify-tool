@@ -42,6 +42,7 @@ app.prepare().then(async () => {
       async afterAuth(ctx) {
         // Access token and shop available in ctx.state.shopify
         const { shop, accessToken, scope } = ctx.state.shopify;
+
         ACTIVE_SHOPIFY_SHOPS[shop] = scope;
 
         // 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
