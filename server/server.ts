@@ -1,6 +1,6 @@
 // @ts-nocheck
 /* eslint-disable */
-import '@babel/polyfill';
+require('@babel/polyfill');
 import dotenv from 'dotenv';
 import 'isomorphic-fetch';
 import createShopifyAuth, { verifyRequest } from '@shopify/koa-shopify-auth';

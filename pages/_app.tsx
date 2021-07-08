@@ -66,7 +66,7 @@ class MyApp extends App<any> {
           config={{
             // @ts-ignore
             apiKey: API_KEY,
-            shopOrigin,
+            shopOrigin: shopOrigin,
             forceRedirect: true,
           }}
         >
