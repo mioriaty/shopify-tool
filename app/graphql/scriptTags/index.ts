@@ -1,0 +1,1 @@
+export { useWriteScriptTag } from './mutations';
